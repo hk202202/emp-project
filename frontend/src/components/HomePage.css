@@ -1,0 +1,80 @@
+/* HomePage.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7fafc; /* Light gray background */
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full height of the viewport */
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem; /* Larger font size for title */
+  color: #1e3a8a; /* Blue color */
+  margin-bottom: 1rem; /* Space below the title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.description {
+  margin: 0.5rem 0 1.5rem 0; /* Margin for description */
+  font-size: 1.25rem; /* Medium font size for description */
+  color: #4a5568; /* Gray color for description */
+  max-width: 600px; /* Limit width for readability */
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  gap: 1rem; /* Space between links */
+}
+
+.link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem; /* Padding for buttons */
+  font-size: 1.125rem; /* Medium font size for links */
+  color: white; /* Text color */
+  border-radius: 0.5rem; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.view-employees {
+  background-color: #3b82f6; /* Blue background */
+}
+
+.add-employee {
+  background-color: #22c55e; /* Green background */
+}
+
+.generate-reports {
+  background-color: #a855f7; /* Purple background */
+}
+
+.link:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.link:hover.view-employees {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+.link:hover.add-employee {
+  background-color: #16a34a; /* Darker green on hover */
+}
+
+.link:hover.generate-reports {
+  background-color: #9333ea; /* Darker purple on hover */
+}
+
+.footer {
+  margin-top: 2rem; /* Space above footer */
+  color: #718096; /* Gray color for footer text */
+  font-size: 0.875rem; /* Smaller font size */
+}

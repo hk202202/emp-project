@@ -1,0 +1,333 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* UpdateForm.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Light gray background */
+  margin: 0;
+}
+
+.form {
+  max-width: 500px; /* Limit form width */
+  margin: 2rem auto; /* Center the form */
+  padding: 2rem;
+  background-color: white; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+.input-box,
+.file-input {
+  width: 100%; /* Full width input */
+  padding: 0.75rem; /* Padding for input */
+  margin-bottom: 1rem; /* Space below inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+}
+
+.input-box:focus,
+.file-input:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.gender-section,
+.course-section {
+  margin-bottom: 1rem; /* Space below sections */
+}
+
+.app-button {
+  width: 100%; /* Full width button */
+  padding: 0.75rem; /* Padding for button */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition for background color */
+}
+
+.app-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.form {
+  max-width: 500px; /* Limit form width */
+  margin: 2rem auto; /* Center the form */
+  padding: 2rem;
+  background-color: white; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+.input-box,
+.file-input {
+  width: 100%; /* Full width input */
+  padding: 0.75rem; /* Padding for input */
+  margin-bottom: 1rem; /* Space below inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+}
+
+.input-box:focus,
+.file-input:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.invalid-input {
+  color: red; /* Red color for validation messages */
+  font-size: 0.875rem; /* Smaller font size */
+}
+
+.gender-section,
+.course-section {
+  margin-bottom: 1rem; /* Space below sections */
+}
+
+.app-button {
+  width: 100%; /* Full width button */
+  padding: 0.75rem; /* Padding for button */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition for background color */
+}
+
+.app-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+  text-align: center; /* Center footer text */
+  margin-top: 1rem; /* Space above footer */
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-sign {
+  text-align: right;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: rgb(51, 44, 44);
+}
+
+.logo {
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.input-box {
+  margin: 30px;
+  display: block;
+  padding: 11px;
+  border: 2px solid cadetblue;
+  width: 300px;
+}
+
+.sign-up,
+.product {
+  margin-left: 30%;
+}
+
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+
+.app-button {
+  padding: 10px;
+  width: 106px;
+  border-radius: 34px;
+  cursor: pointer;
+  margin: 25px;
+  background-color: red;
+  border-color: green;
+}
+
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 31px;
+  padding: 7px;
+}
+/* .product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+.search-product-box{
+  width: 337px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid black;
+  padding-left: 16px;
+} */
+.product-list-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-product-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.sorting-controls {
+  margin-bottom: 10px;
+}
+
+.sorting-controls button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sorting-controls button:hover {
+  background-color: #45a049;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+.edit-link {
+  color: #2196f3;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.pagination-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
