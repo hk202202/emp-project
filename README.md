@@ -7,7 +7,8 @@ If you are looking for React.js version check [here](https://github.com/hk202202
 
 https://user-images.githubusercontent.com/77344191/223635130-afb01b51-98ee-45c6-b3b9-8c090a5c0e20.mp4
 
-<video src="https://drive.google.com/file/d/1EYhVMerpmhUUhZz02OpmYy5qzOjNh3dq/view?usp=sharing">Demo video </video>
+[![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://drive.google.com/file/d/1P0e2dKb-yYnzU9cJzm3t4o-RAo_qBMv4/view?usp=sharing
+)
 
 ## Features
 - User-friendly interface for making requests to the OpenAI API
