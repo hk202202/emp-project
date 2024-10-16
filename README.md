@@ -5,7 +5,6 @@ This app is for demo purpose to test OpenAI API and may contain issues/bugs.
 
 If you are looking for React.js version check [here](https://github.com/hk202202/emp-project)
 
-https://user-images.githubusercontent.com/77344191/223635130-afb01b51-98ee-45c6-b3b9-8c090a5c0e20.mp4
 
 [![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://drive.google.com/file/d/1P0e2dKb-yYnzU9cJzm3t4o-RAo_qBMv4/view?usp=sharing
 )
