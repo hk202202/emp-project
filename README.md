@@ -8,7 +8,7 @@ If you are looking for React.js version check [here](https://github.com/hk202202
 
 [![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://drive.google.com/file/d/1P0e2dKb-yYnzU9cJzm3t4o-RAo_qBMv4/view?usp=sharing
 )
-
+You can watch the demo video by l=click on the image.
 ## Features
 - User-friendly interface for making requests to the OpenAI API
 - Responses are displayed in a chat-like format
